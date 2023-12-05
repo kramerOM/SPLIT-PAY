@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kramer001mwangala/SPLIT-PAY.git"
+  },
+  "author": "Fathi and Kramer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kramer001mwangala/SPLIT-PAY/issues"
+  },
+  "homepage": "https://github.com/kramer001mwangala/SPLIT-PAY#readme"
+}
