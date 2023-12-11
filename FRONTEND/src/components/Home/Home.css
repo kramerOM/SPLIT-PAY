@@ -1,0 +1,50 @@
+.image-bg{
+    background-image: url(../../Assets/beautiful-tropical-beach-sea.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.wrapper-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.wallet, .subscribe{
+    background-color: var(--green);
+    padding: 15px 18px;
+    color: White;
+}
+.wallet{
+    margin-bottom: 2rem;
+    max-width: 400px;
+}
+.one-font{
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.subscribe button{
+    background-color: var(--green);
+    outline: none;
+    border: none;
+    color: White;
+    font-size: 20px;
+    padding: 0.25rem 2rem;
+    cursor: pointer;
+}
+.description{
+    margin-bottom: 2rem;
+}
+/* newsletter */
+.newsletter{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    gap: 2rem;
+    align-items: center;
+}
+.tick-box{
+    width: 15px;
+    height: 15px;
+    background-color: #D3D3D3;
+}

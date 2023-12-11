@@ -1,0 +1,22 @@
+/* footer section */
+.footer-section{
+    background-color: var(--green);
+    padding: 3rem 0;
+    color: #fff;
+    font-size: 18px;
+}
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.Project-name{
+    align-self: center;
+}
+.footer-heading{
+    font-size: 25px;
+    color: yellow;
+    font-weight: 600;
+}
+.footer-items li, .footer-heading{
+    margin-bottom: 1rem;
+}

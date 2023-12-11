@@ -1,0 +1,29 @@
+        /* common styles */
+        *, *::before, ::after{
+          box-sizing: border-box;
+          margin: 0;
+          padding: 0;
+      }
+      :root{
+          --green: #50C878;
+          --blue: #0E4C92;
+      }
+      ul{
+          list-style-type: none;
+      }
+      a{
+          text-decoration: none;
+          display: inline-block;
+      }
+      .container{
+          max-width: 1100px;
+          width: 80%;
+          margin: 0 auto;
+      }
+      img{
+          max-width: 100%;
+      }
+      .section-margin{
+          margin: 5rem 0;
+      }
+      /* common styles */

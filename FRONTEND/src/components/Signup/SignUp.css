@@ -1,0 +1,122 @@
+/* main section */
+.sign-in{
+    background-color: var(--green);
+    padding: 3rem 0;
+    margin-bottom: 5rem;
+}
+.wrapper-signup{
+    display: flex;
+    align-items: baseline;
+    gap: 3rem;
+}
+.form-div-signup{
+    color: #fff;
+    width: 45%;
+    align-self: flex-start;
+}
+.description-right{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 45%;
+}
+/* medium and small screens */
+@media(max-width: 600px){
+    .wrapper-signup{
+        flex-direction: column;
+    }
+    .form-div-signup{
+        width: 100%;
+    }
+    .description-right{
+        width: 100%;
+    }
+}
+.intro{
+    margin-bottom: 1rem;
+}
+.intro h1{
+    font-size: 40px;
+    margin-bottom: 0.5rem;
+}
+.intro p{
+    font-size: 18px;
+    margin-bottom: 0.5rem;
+}
+form h3{
+    font-size: 22px;
+    margin-bottom: 1rem;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+input, button{
+    font-size: 17px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.form-group input{
+    padding: 1rem 1.25rem;
+}
+.form-group label{
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.login button{
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.brief-desc{
+    background-color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 0.25rem;
+    color: #000;
+}
+.why-join{
+    background-color: var(--green);
+    padding: 3rem 0;
+}
+.white-bg{
+    background-color: #fff;
+    padding: 2rem;
+}
+.white-bg h1{
+    margin: 2rem 0;
+    position: relative;
+}
+.white-bg h1::after{
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateY(-50%);
+    background-color: #000;
+}
+.content{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 0 2px 4px rgba(0,0,0,0.07), 0 4px 8px rgba(0,0,0,0.07), 0 8px 16px rgba(0,0,0,0.07), 0 16px 32px rgba(0,0,0,0.07), 0 32px 64px rgba(0,0,0,0.07);
+}
+.content h2{
+    width: 20%;
+}
+.content p{
+    width: 80%;
+    font-size: 18px;
+}

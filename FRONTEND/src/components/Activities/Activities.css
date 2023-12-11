@@ -1,0 +1,65 @@
+.sign-in{
+    background-color: #0E4C92;
+    padding: 3rem 0;
+}
+.form-div{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.intro{
+    margin-bottom: 1rem;
+}
+.intro h1{
+    font-size: 40px;
+    margin-bottom: 0.5rem;
+}
+.intro p{
+    font-size: 18px;
+    margin-bottom: 0.5rem;
+}
+form h3{
+    font-size: 22px;
+    margin-bottom: 1rem;
+}
+.trip{
+    width: 70%;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.form-heading{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 3rem;
+}
+input, button{
+    font-size: 17px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.form-group input{
+    padding: 1rem 1.25rem;
+}
+.form-group label{
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+.one-font{
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+.image-bgg{
+    background-image: url(../../Assets/pexels-pixabay.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
